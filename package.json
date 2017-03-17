@@ -1,15 +1,23 @@
 {
   "name": "@deweybanks/npm-test",
   "version": "1.0.0",
+  "description": "test npm package",
   "main": "index.js",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeweyBanks/test-npm.git"
+  },
   "author": "",
   "license": "ISC",
-  "repository": "https://github.com/DeweyBanks/test-npm",
-  "description": "test app",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  "bugs": {
+    "url": "https://github.com/DeweyBanks/test-npm/issues"
+  },
+  "homepage": "https://github.com/DeweyBanks/test-npm#readme"
 }
